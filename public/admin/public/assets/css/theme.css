@@ -1,0 +1,28 @@
+/**
+ * bootstrap-admin-template - Free Admin Template Based On Twitter Bootstrap 3.x
+ * @version 2.4.2
+ * @license MIT
+ * @link https://github.com/puikinsh/Bootstrap-Admin-Template
+ */
+body.boxed {
+  background-color: hsl(0, 0%, 83%);
+}
+#top > .navbar {
+  border-top: 3px solid #07d6ff;
+}
+#top > .navbar .dropdown-menu > li > a:hover,
+#top > .navbar .dropdown-menu > li > a:focus {
+  background-color: #07d6ff;
+  color: white;
+}
+#menu {
+  background-color: #07d6ff !important;
+}
+#menu > li > a {
+  color: white;
+  text-shadow: none !important;
+}
+.sidebar-left-mini #menu > li > a > .link-title {
+  background-color: #07d6ff !important;
+  color: white;
+}
